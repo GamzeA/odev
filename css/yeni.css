@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.yukseklik
+{
+    min-height: 500px;
+    background-color:#68C0F1;
+	margin-top:1px; 
+	margin-bottom: 10px;
+}
+     
+	 
+.navbarpad
+{
+	
+	border: 2px solid #DC9726;
+	
+	}
+    
+.golgeliKutu {
+  box-shadow: 4px 4px 5px #000;
+}	
+
+     
+.pad0
+{
+    padding: 0;
+}
+
+.marginsifirla
+{
+    margin: 0;
+}
+
+.arkaplan
+{
+	background-color:transparent;
+}
+
+ustmesafe
+{
+    margin-top:30px;
+}
+
+.cerceve
+{
+    border: 2px solid orange;
+}
+.navbarcerceve
+{
+    background-color:#d58512;
+}
+
+.kolon
+{
+    background-color: transparent;
+    
+}
+.altmenu
+{
+    background-color:#eea236;
+}
+.footer-wrapper {
+    float: left;
+    margin: 0 auto;
+    background: #F0F0F0 url(../images/footer-separator.jpg) repeat-x top;
+    display: block;
+    width: 100%;
+}
+.yazı
+{
+    background-color:#19C98A;
+}
+.yukseklik
+{
+    margin: 30px;
+}
+
+
+
+  
+
+.usttenboslukara {
+
+    margin-top: 70px;
+
+  
+  
+}
+.usttenbosluklogo
+{
+    margin-top: 30px;
+}
+#menu 
+{
+list-style-type:none; //listeleme işaretlerini kaldır
+margin:0; //Dış boşlukları sıfırla
+padding:0; //İç boşlukları sıfırla
+}
+#menu li
+{
+position:relative;// /*Katmanın yerinin bir önceki katman esas alınarak belirlenmesini sağlar. Burada Lİ özelliği UL'yi esas alarak yerini belirler.*/
+width:130px;//genişliği 130px olarak ayarlandı
+}
+#menu a:hover // linklerin üzerine gelince zemin rengini değiştir.
+{
+background-color:#FF00FF;
+color:#FFFFFF;
+}
+#menu a //linklerin özellikleri
+{
+text-decoration:none; //linklerin altındaki çizgiyi kaldır
+display:block; //linkleri alt alta göster
+background-color:#00FFFF; //zemin rengi
+border:1px solid #000; //çerçeve özellikleri
+padding:5px; / iç boşluk
+}
+#menu ul
+{
+list-style-type:none; //listeleme işaretlerini kaldır
+margin:0; //Dış boşlukları sıfırla
+padding:0; //İç boşlukları sıfırla
+}
+#menu li:hover ul
+{
+display:block; //li üzerine gelince ul yi göster
+}
+#menu li ul 
+{
+display:none; //li nin içindeki ul'yi gizle
+position:absolute; // li nin pozisyonu bir önceki relative nesneye göre ayarlanıyor
+left:129px; //soldan 129px boşluk bırakılıyor.
+top:0;
+width:130px;
+}
+
+.altalan
+{
+    background-color: #262626;
+}
+
